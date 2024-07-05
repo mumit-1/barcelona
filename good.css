@@ -1,0 +1,142 @@
+*{
+ box-sizing: border-box;
+}
+
+
+
+
+.ball{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(barca.jpg);
+    background-size: cover;
+    z-index: -1;
+    filter: blur(1px);    
+}
+ h1{
+    color: aliceblue;
+    font-size: 350%;
+    text-align: center;
+} 
+span{ 
+    text-decoration:underline;
+    text-shadow: 1px 1px 1px black;
+    
+}
+.red{
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 0, 0, 0.789) ;
+}
+.blue{
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 0, 255, 0.647);
+}
+p{
+    color: aliceblue;
+    font-size: 200%;  
+    text-align: center;
+    text-shadow: 3px 3px 1px black;
+}
+.player{
+    border: 5px solid white;
+    margin: 10px 40px;
+    border-radius: 25px;
+    padding: 1%;
+    border-bottom-color: rgba(255, 0, 0, 0.54);
+    border-top-color: rgba(0, 0, 255, 0.699);
+    border-left-color: rgba(255, 0, 0, 0.74);
+    border-right-color: rgba(0, 0, 255, 0.77);
+}
+h3{
+    color: aliceblue;
+    text-align: left;
+    font-size: 300%;
+    width: 63%;
+    display: inline-block;
+    text-shadow: 5px 5px 2px black;
+}
+#one,#two,#three{
+    color: aliceblue;
+    font-size: 200%;
+   display: inline-block;
+   text-shadow: 3px 3px 1px black;
+ 
+}
+.coach{
+    text-align: center;
+}
+#hole{
+    color: aliceblue;
+    font-size: 300%;
+    text-shadow: 5px 5px 2px black;
+}
+#linkone,#linktwo{
+    text-align: center;
+}
+#linkone{
+  color: aliceblue;
+
+   text-decoration: none;
+  display: inline-block;
+    width: 65%;
+    text-shadow: 3px 3px 1px black;
+}
+#linktwo{
+   color: aliceblue;
+       text-decoration: none;
+  display: inline-block;
+   
+    text-shadow: 3px 3px 1px black;
+}
+.clock{
+    font-size: 250%;
+    text-decoration: none;
+    color: aliceblue;
+}
+.page2nd{
+    display: inline-block;
+    text-align:center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-shadow: 3px 3px 1px black;
+    font-size: 250%;
+    width: 100%;
+    position: absolute;
+    bottom: 2%;
+    
+}
+h2{
+    text-align: center;
+    color: aliceblue;
+    font-size: 250%;
+}
+.boom{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(barca2nd\ \(8\).jpg);
+    background-size: cover;
+    z-index: -1;
+    filter: blur(1px);
+}
+.boomboom{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(barca3rd\ \(7\).jpg);
+    background-size: cover;
+    z-index: -1;
+    filter: blur(1px);
+}
+.last{
+    display: inline-block;
+    text-align:center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-shadow: 3px 3px 2px black;
+    font-size: 250%;
+    width: 100%;
+    position: absolute;
+    bottom: 8%;
+}
