@@ -16,7 +16,7 @@
 }
  h1{
     color: aliceblue;
-    font-size: 350%;
+    font-size: 250%;
     text-align: center;
 } 
 span{ 
@@ -34,7 +34,7 @@ span{
 }
 p{
     color: aliceblue;
-    font-size: 200%;  
+    font-size: 100%;  
     text-align: center;
     text-shadow: 3px 3px 1px black;
 }
@@ -51,14 +51,14 @@ p{
 h3{
     color: aliceblue;
     text-align: left;
-    font-size: 300%;
+    font-size: 150%;
     width: 63%;
     display: inline-block;
     text-shadow: 5px 5px 2px black;
 }
 #one,#two,#three{
     color: aliceblue;
-    font-size: 200%;
+    font-size: 100%;
    display: inline-block;
    text-shadow: 3px 3px 1px black;
  
@@ -68,7 +68,7 @@ h3{
 }
 #hole{
     color: aliceblue;
-    font-size: 300%;
+    font-size: 150%;
     text-shadow: 5px 5px 2px black;
 }
 #linkone,#linktwo{
@@ -90,7 +90,7 @@ h3{
     text-shadow: 3px 3px 1px black;
 }
 .clock{
-    font-size: 250%;
+    font-size: 120%;
     text-decoration: none;
     color: aliceblue;
 }
@@ -100,7 +100,7 @@ h3{
     color: rgb(255, 255, 255);
     text-decoration: none;
     text-shadow: 3px 3px 1px black;
-    font-size: 250%;
+    font-size: 120%;
     width: 100%;
     position: absolute;
     bottom: 2%;
@@ -135,7 +135,7 @@ h2{
     color: rgb(255, 255, 255);
     text-decoration: none;
     text-shadow: 3px 3px 2px black;
-    font-size: 250%;
+    font-size: 120%;
     width: 100%;
     position: absolute;
     bottom: 8%;
