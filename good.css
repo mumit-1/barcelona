@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 *{
  box-sizing: border-box;
 }
@@ -32,7 +33,7 @@ span{
     text-decoration: underline;
     text-decoration-color: rgba(0, 0, 255, 0.647);
 }
-p{
+.paragrapgh{
     color: aliceblue;
     font-size: 100%;  
     text-align: center;
@@ -150,3 +151,36 @@ h2{
     color: aliceblue;
     text-decoration: none;
 }
+.btn{ 
+
+    display: block;
+    text-align: center;
+    width: 100%;
+
+    bottom: 7px;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+}
+.btnmain{
+    background-color: rgba(0, 0, 0, 0.767);  
+    border: 4px solid rgba(0, 0, 255, 0.584);
+    border-radius: 7px;
+    padding: 0px 30px 0px 30px;
+    outline: solid rgba(255, 0, 0, 0.767);
+    transition: 2s;
+    cursor: pointer;
+}
+#textedit{
+    text-decoration: none;
+}
+#firstbtn{
+    color: rgb(247, 255, 4);
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;
+    font-family: "Oswald", sans-serif;
+    font-size:large;
+}
+.btnmain:hover{
+    background: linear-gradient(to bottom,rgba(255, 0, 0, 0.763),red);
+}    
