@@ -140,3 +140,13 @@ h2{
     position: absolute;
     bottom: 8%;
 }
+.visca{
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    bottom: 7%;
+    position: absolute;
+    color: aliceblue;
+    text-decoration: none;
+}
