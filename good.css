@@ -8,12 +8,12 @@
 
 .ball{
     width: 100%;
-    height: 100%;
+    height: 1000px;
     position: absolute;
     background-image: url(barca.jpg);
     background-size: cover;
     z-index: -1;
-    filter: blur(1px);    
+    filter: blur(1px); 
 }
  h1{
     color: aliceblue;
@@ -37,7 +37,7 @@ span{
     color: aliceblue;
     font-size: 100%;  
     text-align: center;
-    text-shadow: 3px 3px 1px black;
+    text-shadow: 3px 3px 1px black;    
 }
 .player{
     border: 5px solid white;
@@ -149,7 +149,7 @@ h2{
     bottom: 7%;
     position: absolute;
     color: aliceblue;
-    text-decoration: none;
+    text-decoration: none;    
 }
 .btn{ 
 
