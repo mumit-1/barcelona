@@ -151,16 +151,13 @@ h2{
     color: aliceblue;
     text-decoration: none;    
 }
-.btn{ 
-
-    display: block;
-    text-align: center;
+.btn{  
     width: 100%;
     margin-top: 10%;
     position: absolute;
     display: flex;
-    justify-content: space-evenly;   
-}
+    justify-content: space-around;
+}  
 .btnmain{
     background-color: rgba(255, 255, 255, 0);  
     border: 4px solid rgba(0, 0, 255, 0.584);
@@ -169,6 +166,7 @@ h2{
     outline: solid rgba(255, 0, 0, 0.767);
     transition: 2s;
     cursor: pointer;
+    box-shadow: 0px 0px 15px;
 }
 #textedit{
     text-decoration: none;
